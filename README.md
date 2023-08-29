@@ -6,15 +6,15 @@ Install tailwindcss via npm, and create your tailwind.config.js file.
 npm install -D tailwindcss
 npx tailwindcss init
 # Configure your template paths
-Add the paths to all of your template files in your tailwind.config.js file. 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+Add the paths to all of your template files in your tailwind.config.js file.<br/>
+/** @type {import('tailwindcss').Config} */<br/>
+module.exports = { <br/>
+  content: ["./src/**/*.{html,js}"], <br/>
+  theme: { <br/>
+    extend: {},<br/>
+  }, <br/>
+  plugins: [],<br/>
+}<br/>
 ![image](https://github.com/NOGAMUKTIWATI/task1/assets/80508180/27c5bea6-089f-4c9c-bec1-c80a9850e300)
 # Add the Tailwind directives to your CSS
 Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
