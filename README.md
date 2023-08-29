@@ -1,6 +1,26 @@
 Project ini untuk memenuhi task 1 dengan Tailwind CSS dan React. <br/>
-Perintah: 
-Website personal kamu sendiri menggunakan TailwindCSS untuk memudahkan mendevelop, untuk struktur website nya mengikuti kemauan kamu dulu, yang penting ada header, section portfolio, navigasi bar, dan responsive juga.
+Perintah:<br/>
+Buat Website personal kamu sendiri menggunakan TailwindCSS untuk memudahkan mendevelop, untuk struktur website nya mengikuti kemauan kamu dulu, yang penting ada header, section portfolio, navigasi bar, dan responsive juga.
+# Install Tailwind CSS
+Install tailwindcss via npm, and create your tailwind.config.js file.
+npm install -D tailwindcss
+npx tailwindcss init
+# Configure your template paths
+Add the paths to all of your template files in your tailwind.config.js file. 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+![image](https://github.com/NOGAMUKTIWATI/task1/assets/80508180/27c5bea6-089f-4c9c-bec1-c80a9850e300)
+# Add the Tailwind directives to your CSS
+Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 # Getting Started with Create React App
