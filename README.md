@@ -1,4 +1,4 @@
-Project ini untuk memenuhi task 1 dengan tools Tailwind CSS dan React.
+Project ini untuk memenuhi task 1 dengan Tailwind CSS dan React.
 Perintah: 
 Website personal kamu sendiri menggunakan TailwindCSS untuk memudahkan mendevelop, untuk struktur website nya mengikuti kemauan kamu dulu, yang penting ada header, section portfolio, navigasi bar, dan responsive juga.
 
