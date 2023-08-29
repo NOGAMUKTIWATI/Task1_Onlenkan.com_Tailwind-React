@@ -1,3 +1,8 @@
+Project ini untuk memenuhi task 1 dengan tools Tailwind CSS dan React.
+Perintah: 
+Website personal kamu sendiri menggunakan TailwindCSS untuk memudahkan mendevelop, untuk struktur website nya mengikuti kemauan kamu dulu, yang penting ada header, section portfolio, navigasi bar, dan responsive juga.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
