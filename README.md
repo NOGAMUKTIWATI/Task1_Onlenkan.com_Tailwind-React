@@ -1,4 +1,7 @@
 Project ini untuk memenuhi task 1 dengan Tailwind CSS dan React. <br/>
+# OUTPUT:
+![image](https://github.com/NOGAMUKTIWATI/task1/assets/80508180/53d99394-8fd3-46c6-8c08-3187866395b6)
+
 Perintah:<br/>
 Buat Website personal kamu sendiri menggunakan TailwindCSS untuk memudahkan mendevelop, untuk struktur website nya mengikuti kemauan kamu dulu, yang penting ada header, section portfolio, navigasi bar, dan responsive juga.
 # Install Tailwind CSS
