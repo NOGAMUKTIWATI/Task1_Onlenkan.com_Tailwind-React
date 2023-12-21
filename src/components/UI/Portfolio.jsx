@@ -4,7 +4,7 @@ import Modal from './Modal';
 
 const Portfolio = () => {
 
-    const [nextItems, setNextItems ] = useState (9)
+    const [nextItems, setNextItems ] = useState (8)
     const [portfolios, setPortfolios] = useState (data)
     const [selectTab, setSelectTab] = useState ('all')
     const [showModal, setShowModal] = useState(false)
