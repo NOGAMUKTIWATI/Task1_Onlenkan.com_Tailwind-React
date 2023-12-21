@@ -4,7 +4,7 @@ import Modal from './Modal';
 
 const Portfolio = () => {
 
-    const [nextItems, setNextItems ] = useState (6)
+    const [nextItems, setNextItems ] = useState (9)
     const [portfolios, setPortfolios] = useState (data)
     const [selectTab, setSelectTab] = useState ('all')
     const [showModal, setShowModal] = useState(false)
@@ -77,7 +77,7 @@ const Portfolio = () => {
 
         <div className='text-center mt-6'>
             {
-                nextItems < portfolios.length && data.length > 6 && (
+                nextItems < portfolios.length && data.length > 8 && (
                 <button onClick={loadMoreHandler} className='text-white bg-primaryColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>Load More</button>
             )}
             

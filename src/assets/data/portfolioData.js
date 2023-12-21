@@ -5,21 +5,22 @@ import portfolioImg04 from "../images/portofolio-04.jpg";
 import portfolioImg05 from "../images/portofolio-05.jpg";
 import portfolioImg06 from "../images/portofolio-06.jpg";
 import portfolioImg07 from "../images/portofolio-07.jpg";
+import portfolioImg08 from "../images/portofolio-08.jpg";
 
 const portfolios = [
   {
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Profile Finance Technology Website",
     description:
-      "Financial technology  or fintech is creating new opportunities and challenges for the financial sector from consumers, to financial institutions and new entrants, to regulators.",
+      "Profile financial technology  or fintech is creating new opportunities and challenges for the financial sector from consumers, to financial institutions and new entrants, to regulators.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
     id: "02",
-    imgUrl: portfolioImg04,
+    imgUrl: portfolioImg02,
     category: "Ux",
     title: "Video Conference Website",
     description:
@@ -29,7 +30,7 @@ const portfolios = [
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
+    imgUrl: portfolioImg03,
     category: "Ux",
     title: "Multimedia Sharing Website",
     description:
@@ -39,7 +40,7 @@ const portfolios = [
   },
   {
     id: "04",
-    imgUrl: portfolioImg05,
+    imgUrl: portfolioImg04,
     category: "Web Design",
     title: "Landing Page",
     description:
@@ -49,7 +50,7 @@ const portfolios = [
   },
   {
     id: "05",
-    imgUrl: portfolioImg03,
+    imgUrl: portfolioImg05,
     category: "Web Design",
     title: "Landing Page",
     description:
@@ -80,7 +81,7 @@ const portfolios = [
   },
   {
     id: "08",
-    imgUrl: portfolioImg01,
+    imgUrl: portfolioImg08,
     category: "Web Design",
     title: "Finance Technology Website",
     description:
