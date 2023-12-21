@@ -58,7 +58,7 @@ const Portfolio = () => {
         </div>
         </div>
 
-        <div className='flex items-center gap-4 flex-wrap mt-12'>
+        <div className='flex items-center gap-5 flex-wrap mt-12'>
         {
             portfolios?.slice(0, nextItems)?.map((portfolio,index)=> (
                 <div key={index} data-aos='fade-zoom-in' data-aos-delay='50' data-aos-duration='1000' className='group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]'>
@@ -75,7 +75,7 @@ const Portfolio = () => {
         }
         </div>
 
-        <div className='text-center mt-6'>
+        <div className='text-center gap-5 mt-6'>
             {
                 nextItems < portfolios.length && data.length > 8 && (
                 <button onClick={loadMoreHandler} className='text-white bg-primaryColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>Load More</button>
